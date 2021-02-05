@@ -2,6 +2,7 @@ package com.example.server.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.example.server.pojo.Blog;
+import org.mapstruct.Mapper;
 
 /**
  * <p>
@@ -11,6 +12,7 @@ import com.example.server.pojo.Blog;
  * @author tiny
  * @since 2021-02-05
  */
+@Mapper
 public interface BlogMapper extends BaseMapper<Blog> {
 
 }
